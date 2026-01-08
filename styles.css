@@ -30,7 +30,7 @@
 }
     */
 
-    /*----------------------------Header--------------------------------------*/
+/*----------------------------Header--------------------------------------*/
 nav {
   display: flex;
   justify-content: space-between;
@@ -50,14 +50,14 @@ nav {
   font-weight: 500;
 }
 
-.items a{
+.items a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
   color: #000000;
 }
 
-.btn{
+.btn {
   border: none;
   background: #30B868;
   padding: 13px 16px;
@@ -65,6 +65,87 @@ nav {
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
+
+
 /* -----------------------------------------------------------------------------------*/
+
+.banner-parent {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(180deg,
+      rgb(42, 42, 42, 0.5),
+      rgba(188, 179, 179, 0.4)),
+    url("assets/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  padding: 70px;
+  margin: 20px auto;
+  max-width: 2200px;
+
+}
+
+
+
+.banner-parent .early-access-btn {
+  display: flex;
+  color: #30B868;
+  padding: 4px 12px;
+  border-radius: 800px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.early-access-btn button {
+  border: none;
+  color: #30B868;
+  font-weight: 500;
+  font-size: 16px;
+  background: #FFFFFF;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.header-one {
+  font-weight: 700;
+  font-size: 72px;
+  color: #FFFFFF;
+  font-style: bold;
+}
+
+.header-two {
+  font-weight: 700;
+  font-size: 72px;
+  color: #30B868;
+  margin-bottom: 8px;
+}
+
+.paragraph {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.see-how-btn{
+    border: none;
+  background: fixed;
+  padding: 13px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  margin: 16px 8px;
+}
+
+
+.Notes-parent{
+    margin: 80px auto;
+}
