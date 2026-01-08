@@ -146,6 +146,77 @@ nav {
 }
 
 
+/*---------------------------Card --------------------------------------------*/
+
 .Notes-parent{
     margin: 80px auto;
 }
+
+.card-section-title{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ gap: 10px;
+ margin-bottom: 30px;
+}
+
+.card-section-title h2{
+ font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+}
+
+.card-section-title p{
+ font-size: 16px;
+  font-weight: 400;
+  color:#627382;
+}
+
+.card-parent{
+
+ display: flex;
+  gap: 15px;
+  margin-top: 16px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.item-card{
+  background-color: white;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.045);
+
+}
+
+.item-card img{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%
+}
+
+.item-card h2{
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+}
+.item-card p{
+   font-size: 16px;
+  font-weight: 400;
+  color:#627382,;
+}
+
+
