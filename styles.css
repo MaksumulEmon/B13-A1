@@ -306,3 +306,50 @@ nav {
   font-weight: 600;
   margin-top: 24px;
 }
+
+
+/* --------------------footer--------------------------*/
+
+footer {
+  background: var(--Style, rgba(0, 25, 49, 1));
+}
+
+.all-screen {
+
+  max-width: 1500px;
+  margin: auto;
+  padding: 30px;
+  margin-top: 100px;
+
+}
+
+.foot-item {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  background: var(--Style, rgba(0, 25, 49, 1));
+}
+
+.foot-item p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+hr{
+
+border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
+opacity: 0.2;
+margin-top: 80px;
+
+}
+.sm{
+ text-align:center;
+
+ color: rgba(250, 250, 250, 1);
+ font-size: 12px;
+ font-weight: 400;
+ 
+}
