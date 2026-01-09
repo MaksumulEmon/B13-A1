@@ -12,23 +12,11 @@
   font-optical-sizing: auto;
 }
 
-
 /*------common Use-----------------*/
 .container {
   max-width: 1400px;
   margin: auto;
 }
-
-
-
-/*-------------Main----------------------*/
-
-/*header{
-
-  background: #7a0404;
-
-}
-    */
 
 /*----------------------------Header--------------------------------------*/
 nav {
@@ -38,7 +26,6 @@ nav {
   padding: 16px 120px;
   background: #FFFFFF;
 }
-
 
 
 .items {
@@ -69,25 +56,16 @@ nav {
 }
 
 
-
 /* -----------------------------------------------------------------------------------*/
 
 .banner-parent {
   display: flex;
+  background-image: url("assets/hero-bg.png");
   flex-direction: column;
-  background-image: linear-gradient(180deg,
-      rgb(42, 42, 42, 0.5),
-      rgba(188, 179, 179, 0.4)),
-    url("assets/hero-bg.png");
-  background-position: center;
-  background-size: cover;
   align-items: center;
-  padding: 70px;
-  margin: 20px auto;
   max-width: 2200px;
-
+  padding: 70px;
 }
-
 
 
 .banner-parent .early-access-btn {
@@ -174,52 +152,50 @@ nav {
 }
 
 .card-parent {
-
   display: flex;
   gap: 15px;
   margin-top: 16px;
   cursor: pointer;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
 }
 
 .item-card {
-  background-color: white;
-  border-radius: 12px;
-  padding: 12px;
-  border: 1px solid rgba(14, 14, 14, 0.15);
+  /* ------------------------*/
   display: flex;
   flex-direction: column;
-  padding: 24px;
   align-items: center;
-  gap: 16px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.045);
-
+  gap: 16p;
+  padding: 24px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
 }
 
 .item-card img {
-  width: 32px;
-  height: 32px;
-  padding: 8px;
   background: rgba(249, 85, 85, 1);
-  border-radius: 50%
+  border-radius: 50%;
+  padding: 10px;
+
 }
+
 
 .item-card h2 {
 
   font-size: 24px;
   font-weight: 600;
   color: #001931;
+  margin-top: 10px;
 }
 
 .item-card p {
   font-size: 16px;
   font-weight: 400;
   color: #627382, ;
+  margin-top: 16px;
 }
 
 
-/* -----------------------------------banner-2 ----------------------------------- */
+/* -----------------------------------Brain Section ----------------------------------- */
 .banner-2 {
   display: flex;
   max-width: 1200px;
@@ -269,7 +245,8 @@ nav {
 
 .all-select img {
   align-items: center;
-  vertical-align: middle;
+  vertical-align: top;
+  margin-left: 4px;
   margin-right: 4px;
 }
 
@@ -280,10 +257,10 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 24px;
-
   text-align: center;
   padding: 80px 40px;
   margin-top: 100px;
+  border-radius: 12px;
 }
 
 .banner-3 h2 {
@@ -315,7 +292,6 @@ footer {
 }
 
 .all-screen {
-
   max-width: 1500px;
   margin: auto;
   padding: 30px;
@@ -326,7 +302,6 @@ footer {
 .foot-item {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
   background: var(--Style, rgba(0, 25, 49, 1));
 }
@@ -338,18 +313,17 @@ footer {
 }
 
 
-hr{
-
-border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
-opacity: 0.2;
-margin-top: 80px;
+hr {
+  border: 1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1));
+  opacity: 0.2;
+  margin-top: 80px;
 
 }
-.sm{
- text-align:center;
 
- color: rgba(250, 250, 250, 1);
- font-size: 12px;
- font-weight: 400;
- 
+.copy-right {
+  text-align: center;
+  color: rgba(250, 250, 250, 1);
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 30px;
 }
